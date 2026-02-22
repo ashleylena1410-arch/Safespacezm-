@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #1e293b;
+}
+
+nav a {
+  color: #f97316;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.card {
+  background: #1e293b;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 0.8rem 1.2rem;
+  background: #f97316;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ea580c;
+}
+
+.airtel-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #22c55e;
+}
+
+.success {
+  color: #22c55e;
+  margin-top: 1rem;
+}
+
+.error {
+  color: #ef4444;
+  display: none;
+}
+
+@media(max-width:768px){
+  .card {
+    margin: 1rem;
+  }
+}
